@@ -1,0 +1,166 @@
+/* Estilos del portafolio de Milana Isakova */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 240, 255);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* menu de arriba */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(251, 205, 255);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(110, 30, 105);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.menu a:hover,
+.menu a.activo {
+    background-color: rgb(186, 70, 174);
+    color: white;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(140, 40, 130);
+    scroll-margin-top: 60px;
+}
+
+h3 {
+    color: rgb(140, 40, 130);
+}
+
+.foto {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* botones rosados (redes y formulario) */
+.redes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes a,
+.boton {
+    background-color: rgb(186, 70, 174);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+}
+
+.redes a:hover,
+.boton:hover {
+    background-color: rgb(140, 40, 130);
+    color: white;
+}
+
+/* tarjetas de proyectos y habilidades */
+.tarjeta {
+    background-color: white;
+    border: 2px solid rgb(251, 205, 255);
+    border-radius: 12px;
+    height: 100%;
+}
+
+.tarjeta img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* para que la captura de la app se vea entera */
+.tarjeta img.entera {
+    object-fit: contain;
+    background-color: rgb(245, 245, 245);
+}
+
+.icono {
+    font-size: 40px;
+    color: rgb(186, 70, 174);
+}
+
+/* barras de progreso con mi color */
+.progress {
+    background-color: rgb(251, 205, 255);
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: rgb(186, 70, 174);
+}
+
+/* diario de aprendizaje */
+.entrada {
+    background-color: white;
+    border-left: 6px solid rgb(186, 70, 174);
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.fecha {
+    color: rgb(140, 40, 130);
+    font-weight: bold;
+}
+
+/* formulario */
+.form-control:focus {
+    border-color: rgb(186, 70, 174);
+    box-shadow: 0 0 0 3px rgb(251, 205, 255);
+}
+
+#mensaje-enviado {
+    display: none;
+    color: rgb(110, 30, 105);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* pie de pagina */
+footer {
+    background-color: rgb(251, 205, 255);
+    color: rgb(110, 30, 105);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: rgb(110, 30, 105);
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+footer .creditos {
+    font-size: 13px;
+}

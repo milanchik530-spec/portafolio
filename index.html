@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Milana Isakova</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(253, 240, 255);
+            color: #333;
+            line-height: 1.6;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(251, 205, 255);
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .menu a {
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(110, 30, 105);
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .menu a:hover {
+            background-color: rgb(186, 70, 174);
+            color: white;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            padding-top: 50px;
+            text-align: center;
+            color: rgb(140, 40, 130);
+            scroll-margin-top: 60px;
+        }
+        .foto {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .redes {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .redes a {
+            background-color: rgb(186, 70, 174);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .redes a:hover {
+            background-color: rgb(140, 40, 130);
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#inicio">inicio</a>
+        <a href="#sobre-mi">sobre mi</a>
+        <a href="#proyectos">proyectos</a>
+        <a href="#contacto">contacto</a>
+    </nav>
+
+    <section>
+        <h1 id="inicio">Inicio</h1>
+        <p>¡Buenos días a todos! Mi nombre es Milana Isakova, estoy en primer año del Bachillerato Técnico en Informática aquí en el Colegio Bautista de Encarnación, y vivo en Encarnación.</p>
+        <p>Hoy les quiero contar un poco sobre quién soy. Algo que me define es que me gusta probar cosas diferentes. No me quedo con una sola cosa: me gusta descubrir actividades nuevas, animarme a cosas que nunca hice y ver qué tal me va.</p>
+        <p>Y creo que por eso soy buena aprendiendo cosas nuevas, porque cada vez que pruebo algo distinto, aprendo algo más.</p>
+        <p>En esta presentación les voy a mostrar un poco más sobre mí, lo que me gusta y lo que me gustaría lograr. ¡Empecemos!</p>
+    </section>
+
+    <section>
+        <h1 id="sobre-mi">Sobre Mí</h1>
+        <img class="foto" src="img/Screenshot 2026-10-01 101713.png" alt="mi foto">
+        <p>¡Hola! Soy Milana Isakova, estudiante del curso 1BTI en el Colegio Bautista de Encarnación. Me apasiona la tecnología, la programación y la electrónica, por eso disfruto mucho las clases donde aprendo desde HTML hasta el armado de circuitos.</p>
+        <p>Actualmente formo parte de un equipo que desarrolla un proyecto innovador: una pulsera inteligente capaz de detectar caídas y enviar una alerta de inmediato, pensada para brindar mayor seguridad a personas mayores o con movilidad reducida.</p>
+        <p>Me gusta investigar, resolver problemas y aprender cosas nuevas cada día, ya sea programando, soldando componentes o diseñando páginas como esta. Hablo español, inglés y ruso, lo que me permite conectar con distintas personas y culturas.</p>
+    </section>
+
+    <section>
+        <h1 id="proyectos">Proyectos</h1>
+        <h3>Pulsera Inteligente CAIDIX</h3>
+        <p>Un dispositivo portátil que utiliza sensores de movimiento para detectar caídas en tiempo real y enviar una alerta automática, brindando una respuesta rápida y mayor seguridad a quien lo usa. El proyecto abarca desde el armado y soldado de los componentes electrónicos hasta la programación del sistema de detección.</p>
+    </section>
+
+    <section>
+        <h1 id="contacto">Contacto</h1>
+        <p>Teléfono: +595 994 131 064</p>
+        <p>Correo: <a href="mailto:milanchik530@gmail.com">milanchik530@gmail.com</a></p>
+
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/mila-isakova-3263ab440/?isSelfProfile=true" target="_blank">LinkedIn</a>
+            <a href="https://github.com/TU-USUARIO" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/_isakovamilana" target="_blank">Instagram</a>
+        </div>
+    </section>
+</body>
+</html>
